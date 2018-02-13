@@ -1,0 +1,23 @@
+{
+  "name": "dawn",
+  "version": "0.0.1",
+  "description": "Stop and Start EC2 instance.",
+  "scripts": {
+    "serverless": "serverless",
+    "deploy": "serverless deploy",
+    "start": "serverless invoke --function start",
+    "stop": "serverless invoke --function stop",
+    "remove": "serverless remove"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enokawa/dawn.git"
+  },
+  "main": "index.js",
+  "author": "Naoto Enokawa <enokawa00@gmail.com>",
+  "homepage": "https://github.com/enokawa/dawn",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^1.8.0"
+  }
+}
